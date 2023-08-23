@@ -1,0 +1,44 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+
+.main{
+     background-color: azure;
+}
+
+.navbar .navitem .navlink li a:hover{
+     color: black;
+}
+
+::-webkit-scrollbar {
+     width: 0.5px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+     background: #888;
+}
+   
+   /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}
+   
+.cards{
+     box-shadow: 5px  5px  2px black;
+}
+
+hr{
+     width: 99%;
+     height: 5px;
+     color: rgb(41, 28, 28);
+     padding: 1px 2px;
+}
+
+h3{
+     text-align: center;
+     padding: 20px;
+}
